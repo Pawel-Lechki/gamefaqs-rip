@@ -1,0 +1,9 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+fetch_games:
+    path: /fetch-games
+    controller: App\Controller\GameFaqsController::fetchGames
+    methods: [ GET ]
